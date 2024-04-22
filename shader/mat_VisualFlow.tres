@@ -1,0 +1,15 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://cwj6mot5qqvmd"]
+
+[ext_resource type="Shader" path="res://shader/VisualFlowShader.gdshader" id="1_b1pc2"]
+[ext_resource type="Texture2D" uid="uid://d18twd1arw3wv" path="res://textures/example_map.png" id="2_5l72n"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_b1pc2")
+shader_parameter/debug_uv_offset = Vector2(0, 0)
+shader_parameter/blur_amount = 250.0
+shader_parameter/line_thickness = 0.05
+shader_parameter/min_arrow_length = 0.05
+shader_parameter/max_arrow_length = 0.9
+shader_parameter/render_background = true
+shader_parameter/albedo_texture = ExtResource("2_5l72n")
