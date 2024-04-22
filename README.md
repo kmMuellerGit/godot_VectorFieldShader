@@ -17,6 +17,6 @@ Shader input is a regular texture which is updated at regular intervals as neede
 - Includes toggle to render only arrows.
 
 # Demo
-Project contains a simple vector field to shader flow.  
+Project contains a simple vector field to shader flow. The script can be easily modified to move around the world and display a limited window into a much larger vector field.
 
 ![Arrows pointing at an orbiting moon](./animation.gif)
